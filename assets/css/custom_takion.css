@@ -1,0 +1,345 @@
+.logo_navbar{
+    width: 180px;
+}
+
+
+/* En pantallas menores a 768px (dispositivos móviles) */
+@media (max-width: 1000px) {
+    .logo_navbar{
+        width: 160px;
+    }
+}
+
+
+.hero-btn a {
+    min-height: 70px;
+    display: flex;
+    align-items: center;     /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    text-align: center;      /* Para compatibilidad con texto multilínea */
+  }
+
+.a_nav_top:hover{
+    color: #20810e !important;
+}
+
+.cta-link:hover{
+    color: #20810e !important;
+}
+
+.nav-link:hover{
+    color: #20810e !important;
+    text-decoration: underline;
+}
+
+
+
+/* Estilos base */
+.header-sticky {
+    width: 100%;
+    top: -50px; /* Oculta inicialmente */
+    transition: all 0.3s;
+    z-index: 1030;
+}
+
+/* Clase que se agregará con JS */
+.header-sticky.sticky {
+    position: fixed;
+    top: 0;
+    background: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flag-icon {
+    height: 1em;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+/* En tu archivo CSS */
+.list-unstyled li {
+    margin-bottom: 12px; /* Ajusta este valor según necesites */
+    padding-left: 28px; /* Espacio para alinear texto con check */
+    position: relative;
+}
+
+.list-unstyled .fa-check {
+    position: absolute;
+    left: 0;
+    top: 4px; /* Alineación vertical del ícono */
+}
+
+.mr-2{
+    margin-right: 0.5rem;
+}
+
+.icon_modulo{
+    position: relative;
+    top: 4px;
+}
+
+.bg-gray {
+	background: var(--secondary-color);
+	padding: 60px 0 30px;
+}
+
+.title_modulo{
+    color: var(--primary-color);
+}
+
+
+/* Clase para eliminar el estilo por defecto de la lista */
+.custom-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Clase para los elementos de la lista con espacio para el punto */
+.custom-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.767);
+}
+/* Pseudo-elemento para agregar el punto personalizado */
+.custom-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff; /* Color del punto */
+    font-size: 20px; /* Tamaño del punto */
+    line-height: 1;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+
+/* En pantallas menores a 768px (dispositivos móviles) */
+@media (max-width: 1000px) {
+    .about-us-body-content {
+        width: 100%; /* Ocupar todo el ancho disponible */
+    }
+
+    .view-pc{
+        display: none;
+    }
+
+    .about-us-body{
+        border-radius: 0px !important;
+        padding: 10px;
+    }
+    
+}
+
+
+.img_banco_servicio{
+    min-height: 40px;
+    max-width: 40px;
+    margin-right: 5px;
+}
+
+.img_banco_voii{
+    position: relative;
+    top: 16px;
+	min-width: 130px;
+    max-height: 40px;
+}
+
+
+
+
+/* En pantallas menores a 768px (dispositivos móviles) */
+@media (max-width: 768px) {
+    .mobile-margin-services{
+        position: relative;
+        padding-bottom: 20px !important;
+    }
+    
+}
+
+
+
+.section_terminos{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.p-terminos{
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    overflow: visible; /* Permite que el pseudo-elemento se muestre fuera */
+  }
+  
+  /* Pseudo-elemento para la animación de pulso */
+  .whatsapp-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(37, 211, 102, 0.5);
+    z-index: -1;
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .whatsapp-icon i {
+    font-size: 24px;
+  }
+  
+  .nav-link {
+    font-size: 15px !important;
+  }
+  
+  @media (max-width: 768px) {
+    .whatsapp-button {
+      width: 40px;
+      height: 40px;
+      bottom: 15px;
+      right: 15px;
+    }
+  }
+  
+
+
+  
+    
+.proceso-padding{
+    margin-top:0px; 
+    padding-bottom:60px;
+}
+
+
+@media (max-width: 768px) {
+    .proceso-padding{
+        margin-top:0px; 
+        padding-bottom:60px;
+    }
+
+}
+  
+
+
+/* Clases personalizadas */
+.flag-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+}
+
+.dropdown-arrow {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+
+/* Ocultar texto en pantallas menores a 1300px */
+@media (max-width: 1300px) {
+    .flag-label {
+        /* display: none !important; */
+    }
+}
+/* Clases personalizadas */
+.flag-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+}
+
+.dropdown-arrow {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+
+/* Ocultar texto en pantallas menores a 1300px */
+@media (max-width: 1000px) {
+    .flag-label {
+        color: black !important;
+    }
+
+    .dropdown-arrow {
+        color: rgb(0, 0, 0);
+    }
+    
+}
+
+/* Ajustes para el dropdown */
+.list-group-item {
+    transition: background-color 0.2s;
+    min-width: 140px;
+}
+
+.flag-icon-custom{
+    width: 22px;
+}
+
+#select_idioma{
+    position: relative;
+    top: 5px;
+}
+
+/* En pantallas menores a 768px (dispositivos móviles) */
+@media (max-width: 1000px) {
+    .flag-icon-custom{
+        width: 26px;
+    }
+}
+
+
+.idioma_contenedor_padre{
+    position: relative;
+    top: 4px !important;
+}
+
+
+/* En pantallas menores a 768px (dispositivos móviles) */
+@media (max-width: 1000px) {
+.idioma_contenedor_padre{
+    top: -1px !important;
+    padding-right: 2px !important;
+}
+}

@@ -1,0 +1,529 @@
+﻿
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+	<!-- Page Title -->
+    <title>Takion -  Políticas de privacidad</title>
+
+    <meta name="title" content="Takion | Especialistas en PSP y Cumplimiento BCRA/UIF | Soluciones Fintech Argentina">
+    <meta name="description" content="Desarrollo integral de plataformas Fintech: Billeteras Virtuales PSP, Exchanges Cripto (PSAV) y cumplimiento regulatorio BCRA/UIF/CNV. Proyectos llave en mano con soporte legal y tecnológico.">
+    <meta name="keywords" content="PSP, BCRA, UIF, CNV, ARCA, fintech, criptomonedas, billeteras virtuales, cumplimiento regulatorio, exchanges cripto, PSAV, proyectos llave en mano, KYC, AML, licencias financieras, onboarding digital, consultoría legal, optimización fiscal, seguridad financiera, Argentina">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.takion.com.ar/">
+    <meta property="og:title" content="Takion | Líderes en Desarrollo Fintech y Cumplimiento BCRA/UIF">
+    <meta property="og:description" content="Soluciones integrales para plataformas financieras: desde desarrollo tecnológico hasta gestión regulatoria. Especialistas en PSP y Exchanges Cripto en Argentina.">
+    <meta property="og:image" content="https://www.takion.com.ar/img/og-takion-fintech.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.takion.com.ar/">
+    <meta property="twitter:title" content="Takion | Especialistas en Soluciones Fintech Regulatorias">
+    <meta property="twitter:description" content="Desarrollamos plataformas financieras con compliance BCRA/UIF/CNV. Tecnología, legalidad y seguridad para tu proyecto PSP o Exchange Cripto.">
+    <meta property="twitter:image" content="https://www.takion.com.ar/img/twitter-card-takion.jpg">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.takion.com.ar/">
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="AR-C">
+    <meta name="geo.placename" content="Buenos Aires">
+    <meta name="language" content="Spanish">
+
+    <!-- Additional Tags -->
+    <meta name="author" content="Takion Solutions">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="15 days">
+
+    <!-- Favicon Icon -->
+<link rel="shortcut icon" type="image/x-icon" href="./assets/images/logo/logo.png?v=1.005">
+<!-- Google Fonts Css-->
+<link rel="preconnect" href="https://fonts.googleapis.com?v=1.005">
+<link rel="preconnect" href="https://fonts.gstatic.com?v=1.005" crossorigin="">
+<!-- Bootstrap Css -->
+<link href="./assets/css/bootstrap.min.css?v=1.005" rel="stylesheet" media="screen">
+<!-- SlickNav Css -->
+<link href="./assets/css/slicknav.min.css?v=1.005" rel="stylesheet">
+<!-- Swiper Css -->
+<link rel="stylesheet" href="./assets/css/swiper-bundle.min.css?v=1.005">
+<!-- Font Awesome Icon Css-->
+<link href="./assets/css/all.min.css?v=1.005" rel="stylesheet" media="screen">
+<!-- Animated Css -->
+<link href="./assets/css/animate.css?v=1.005" rel="stylesheet">
+<!-- Magnific Popup Core Css File -->
+<link rel="stylesheet" href="./assets/css/magnific-popup.css?v=1.005">
+<!-- Mouse Cursor Css File -->
+<link rel="stylesheet" href="./assets/css/mousecursor.css?v=1.005">
+<!-- Main Custom Css -->
+<link href="./assets/css/custom.css?v=1.005" rel="stylesheet" media="screen">
+
+<link href="./assets/css/custom_takion.css?v=1.005" rel="stylesheet" media="screen">
+<link href="./assets/css/team/team_2.css?v=1.005" rel="stylesheet" media="screen">
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+
+</head>
+<body>
+
+    <!-- Preloader Start -->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<!-- <div id="loading-icon"><img src="assets/images/logo/logo.png" alt=""></div> -->
+		</div>
+	</div>
+	<!-- Preloader End -->
+
+
+
+    <!-- NAVBAR -->
+    
+
+    <!-- Topbar Section Start -->
+    <div class="topbar takion-topbar" style="min-height: 50px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+
+                    <div class="topbar-info-text d-none d-lg-block">
+                        <p class="tagline">
+                            <i class="fa-solid fa-shield-halved"></i> Especialistas en PSP y cumplimiento BCRA/UIF 
+                            <a href="./inicio#contacto" class="cta-link ">Iniciar Proyecto <i class="fa-solid fa-arrow-right"></i></a>
+                        </p>
+                    </div>
+                    <div class="topbar-info-text d-block d-lg-none">
+                        <p class="tagline">
+                            <i class="fa-solid fa-shield-halved"></i>Especialistas en PSP & BCRA/UIF 
+                            <a href="./inicio#contacto" class="cta-link">Iniciar Proyecto <i class="fa-solid fa-arrow-right"></i></a>
+                        </p>
+                    </div>
+
+
+                </div>
+                
+                <div class="col-md-5 d-none d-lg-block" style="z-index: 1000;">
+                    <div class="topbar-links">
+                        <!-- Enlaces Específicos para Fintech -->
+                        <div class="topbar-contact-info" style="border: none;" >
+                            <ul>
+                                <li><a href="./inicio#contacto" class="a_nav_top"><i class="fa-solid fa-headset"></i> Contacto 🇦🇷</a></li>
+                                <li style="opacity:1 !important;" id="li_contenedor_pc" >
+
+
+                                    <!-- Selector de idioma fuera de la lista -->
+                                    <div x-data="{
+                                        open: false,
+                                        screenWidth: window.innerWidth,
+                                        selected: { code: 'es', label: 'Español', flag: './assets/images/idioma/es.png?v=1.01', url: './inicio?idioma=es' },
+                                        languages: [
+                                            { code: 'es', label: 'Español', flag: './assets/images/idioma/es.png', url: './politicas?idioma=es' },
+                                            { code: 'en', label: 'Inglés', flag: './assets/images/idioma/ingles.png?v=1.01', url: './politicas?idioma=en' }
+                                        ],
+                                        updateScreenWidth() {
+                                            this.screenWidth = window.innerWidth;
+                                        }
+                                    }" 
+                                    x-init="window.addEventListener('resize', () => updateScreenWidth())"
+                                    class="position-relative ms-4 idioma_contenedor_padre" id="select_idioma">
+
+                                        <!-- Botón de selección de idioma -->
+                                        <button @click="open = !open" class="btn btn-link d-flex align-items-center gap-2 text-decoration-none p-0">
+                                            <img :src="selected.flag" alt="Bandera" class="flag-icon-custom">
+                                            <span x-text="screenWidth > 1000 ? selected.label : selected.code.toUpperCase()" class="text-white  flag-label"></span>
+                                            <svg class="dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                            </svg>
+                                        </button>
+
+                                        <!-- Dropdown de idiomas -->
+                                        <div x-show="open" @click.away="open = false" class="position-absolute end-0 mt-2 bg-white rounded shadow z-3" x-cloak>
+                                            <div class="list-group list-group-flush">
+                                                <template x-for="language in languages" :key="language.code">
+                                                    <a :href="language.url" class="list-group-item list-group-item-action d-flex align-items-center py-2 px-3">
+                                                        <img :src="language.flag" alt="Bandera" class="flag-icon me-2">
+                                                        <span x-text="language.label" class="text-dark"></span>
+                                                    </a>
+                                                </template>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar Section End -->
+
+    
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="./inicio#">
+                        <img src="./assets/images/logo/logo.png" class="logo_navbar" alt="Logo">
+                    </a>
+
+                    <div id="contenedor_select_idioma_mobile">
+
+                    </div>
+
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item "><a class="nav-link" href="./inicio#">Inicio</a></li>                                
+                                <li class="nav-item"><a class="nav-link" href="./inicio#servicios">Servicios</a>
+                                <li class="nav-item"><a class="nav-link" href="./inicio#proceso">Nuestro Proceso</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./inicio#casos-exito">Casos de Éxito</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./inicio#sobre-nosotros">Sobre Nosotros</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./inicio#blog">POSTS/NEWS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./inicio#faq">FAQ</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="./inicio#contacto" class="btn-default">CONTACTAR</a>
+                        </div>
+                        <!-- Header Btn End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+	<!-- Header End -->
+
+
+    <script>
+    function moverSelectorIdioma() {
+        const selector = document.getElementById('select_idioma');
+        const contenedorMobile = document.getElementById('contenedor_select_idioma_mobile');
+        const contenedorPC = document.getElementById('li_contenedor_pc');
+
+        if (window.innerWidth <= 1000) {
+        // Mover a contenedor móvil si no está ya ahí
+        if (selector.parentElement !== contenedorMobile) {
+            contenedorMobile.appendChild(selector);
+        }
+        } else {
+        // Mover a contenedor de PC si no está ya ahí
+        if (selector.parentElement !== contenedorPC) {
+            contenedorPC.appendChild(selector);
+        }
+        }
+    }
+
+    // Ejecuta al cargar la página y al cambiar el tamaño
+    window.addEventListener('DOMContentLoaded', moverSelectorIdioma);
+    window.addEventListener('resize', moverSelectorIdioma);
+    </script>
+
+
+
+
+    <!-- CONTENIDO -->
+    
+        
+    <!-- Our Services Section Start -->
+    <div class="our-services" id="servicios">
+        <div class="container">
+            <div class="section-title text-left">
+                <h2 class="wow fadeInUp" data-wow-delay="0.2s" >Políticas de privacidad</span></h2>
+            </div>
+
+            <p class="p-terminos mb-5 mt-0"><em>Última actualización: <strong>1 de Marzo de 2025</strong></em></p>
+
+
+            <div class="section_terminos">
+                <h4 class="mb-2">1. Alcance y Finalidad</h4>
+                <p class="p-terminos">Esta política aplica a todos los datos personales recopilados por Takion S.A. a través de sus plataformas, con el fin de proveer servicios fintech, cumplir obligaciones regulatorias y mejorar la experiencia del usuario.</p>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">2. Datos que Recopilamos</h4>
+                <ul>
+                    <li><span class="highlight">Datos identificativos:</span> Nombre, DNI, dirección, teléfono.</li>
+                    <li><span class="highlight">Datos financieros:</span> Historial de transacciones, cuentas bancarias vinculadas, balances.</li>
+                    <li><span class="highlight">Datos técnicos:</span> Dirección IP, dispositivo, registros de acceso (logs).</li>
+                    <li><span class="highlight">Datos de cumplimiento:</span> Documentos KYC/AML como selfies, comprobantes de domicilio.</li>
+                </ul>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">3. Uso de los Datos</h4>
+                <p class="p-terminos">Utilizamos su información para:</p>
+                <ul>
+                    <li>Procesar transacciones y operaciones financieras.</li>
+                    <li>Verificar identidades bajo normativas BCRA y UIF.</li>
+                    <li>Brindar soporte técnico y atención al cliente.</li>
+                    <li>Enviar actualizaciones regulatorias o cambios en los servicios.</li>
+                </ul>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">4. Compartición de Datos</h4>
+                <p class="p-terminos">Sus datos podrán ser compartidos con:</p>
+                <ul>
+                    <li>Entidades financieras y procesadores de pago para operar servicios.</li>
+                    <li>Autoridades regulatorias (CNV, UIF) por obligación legal.</li>
+                    <li>Socios tecnológicos para mantenimiento de la plataforma, bajo acuerdos de confidencialidad.</li>
+                </ul>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">5. Seguridad de los Datos</h4>
+                <p class="p-terminos">Implementamos medidas técnicas como:</p>
+                <ul>
+                    <li>Encriptación AES-256 para transacciones y almacenamiento.</li>
+                    <li>Autenticación de dos factores (2FA) en cuentas de usuarios.</li>
+                    <li>Auditorías periódicas de seguridad.</li>
+                </ul>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">6. Derechos del Usuario</h4>
+                <p class="p-terminos">De acuerdo con la Ley 25.326, usted puede:</p>
+                <ul>
+                    <li>Acceder, rectificar o eliminar sus datos personales.</li>
+                    <li>Solicitar la portabilidad de su información.</li>
+                    <li>Oponerse al tratamiento de datos para fines comerciales.</li>
+                    <li>Ejercer estos derechos enviando un correo a <span class="highlight"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fc95929a93bc889d97959392d29f9391d29d8e">[email&#160;protected]</a></span>.</li>
+                </ul>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">7. Cookies y Tecnologías Similares</h4>
+                <p class="p-terminos">Usamos cookies para:</p>
+                <ul>
+                    <li>Mejorar la funcionalidad de la plataforma.</li>
+                    <li>Analizar tráfico mediante herramientas como Google Analytics (datos anonimizados).</li>
+                    <li>Puede gestionar sus preferencias desde la configuración de su navegador.</li>
+                </ul>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">8. Transferencias Internacionales</h4>
+                <p class="p-terminos">En casos excepcionales, sus datos podrán transferirse a países con estándares de protección equivalentes, bajo cláusulas contractuales tipo de la UE.</p>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">9. Menores de Edad</h4>
+                <p class="p-terminos">Nuestros servicios están dirigidos a mayores de 18 años. No recopilamos datos de menores deliberadamente.</p>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">10. Cambios en la Política</h4>
+                <p class="p-terminos">Notificaremos modificaciones mediante correo electrónico o un aviso destacado en la plataforma.</p>
+            </div>
+
+            <div class="section_terminos">
+                <h4 class="mb-2">11. Contacto</h4>
+                <p class="p-terminos">Encargado de Protección de Datos:<br>
+                Email: <span class="highlight"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d3babdb5bc93a7b2b8babcbdfdb0bcbefdb2a1">[email&#160;protected]</a></span><br>
+                Dirección: Av. Corrientes 1234, CABA, Argentina</p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Our Services Section End -->
+
+
+
+
+
+
+    <!-- FOOTER -->
+    
+
+<!-- Main Footer Section Start -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Footer Header Start -->
+                <div class="footer-header">
+                    <!-- Footer Logo Start -->
+                    <div class="footer-logo">
+                        <img src="./assets/images/logo/logo_light.png" alt="">
+                    </div>
+                    <!-- Footer Logo End -->
+                    
+                    <!-- Footer Social Links Start -->
+                    <!-- <div class="topbar-social-links">
+                        <ul>
+                            <li><a href="https://linkedin.com/company/takion" target="_blank" class="a_nav_top" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://twitter.com/takion-fintech" target="_blank" class="a_nav_top" aria-label="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="https://wa.me/+5491155555555" target="_blank" class="a_nav_top" aria-label="WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div> -->
+                    <!-- Footer Social Links End -->
+                </div>
+                <!-- Footer Header End -->
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Footer Newsletter Form Start -->
+                <div class="footer-links footer-newsletter-form">
+                    <p>Takion es una empresa líder en Argentina, especializada en el desarrollo de soluciones integrales para billeteras virtuales PSP y exchanges de criptomonedas (PSAV).</p>
+
+                    <span id="siteseal"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async type="text/javascript" src="https://seal.starfieldtech.com/getSeal?sealID=YJ0bJxFtbwujHxvrIN8hkUcZuxEpVQzuBvZNf8Sa4mExiPq7yYCpK0oN7EVl"></script></span>
+                </div>
+                <!-- Footer Newsletter Form End -->
+            </div>
+
+            <!-- Columna con los enlaces del navbar -->
+            <div class="col-lg-2 col-md-3 col-6">
+                <!-- Footer Links Start -->
+                <div class="footer-links footer-quick-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li class="nav-item "><a class="nav-link a_footer" href="./inicio#">Inicio</a></li>                                
+                        <li class="nav-item"><a class="nav-link a_footer" href="./inicio#servicios">Servicios</a>
+                        <li class="nav-item"><a class="nav-link a_footer" href="./inicio#proceso">Nuestro Proceso</a></li>
+                        <li class="nav-item"><a class="nav-link a_footer" href="./inicio#casos-exito">Casos de Éxito</a></li>
+                        <li class="nav-item"><a class="nav-link a_footer" href="./inicio#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link a_footer" href="./inicio#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link a_footer" href="./inicio#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Links End -->
+            </div>
+            
+            <div class="col-lg-2 col-md-3 col-6">
+                <!-- Footer Links Start -->
+                <div class="footer-links">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a class="nav-link" href="./terminos-y-condiciones">Términos y condiciones</a></li>
+                        <li><a class="nav-link" href="./politicas-privacidad">Políticas de privacidad</a></li>
+                        <li><a class="nav-link" href="./inicio#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Links End -->
+            </div>
+            
+            <div class="col-lg-2 col-md-3 col-6">
+                <!-- Footer Links Start -->
+                <div class="footer-links">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="https://wa.link/tqpc2e">
+                            <i class="fab fa-whatsapp"></i> +5491157215048
+                            </a>
+                        </li>
+                        <li>
+                        <a class="nav-link" href="/cdn-cgi/l/email-protection#caa3a4aca58abeaba1a3a5a4e4a9a5a7e4abb8" style="text-transform: lowercase;">
+                            <i class="fas fa-envelope"></i> <span class="__cf_email__" data-cfemail="91f8fff7fed1e5f0faf8feffbff2fefcbff0e3">[email&#160;protected]</span>
+                        </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i> Ciudad de Buenos Aires, Argentina
+                        </li>
+                        </ul>
+
+                </div>
+                <!-- Footer Links End -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Copyright Start -->
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Footer Copyright Text Start -->
+                    <div class="footer-copyright-text">
+                        <p>Copyright © 2025  Takion. Todos los derechos reservados.</p>
+                    </div>
+                    <!-- Footer Copyright Text End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Copyright End -->
+</footer>
+<!-- Main Footer Section End -->
+
+
+    <!-- Jquery Library File -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="./assets/js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="./assets/js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Parallax js -->
+    <script src="./assets/js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="./assets/js/gsap.min.js"></script>
+    <script src="./assets/js/SplitText.js"></script>
+    <script src="./assets/js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="./assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="./assets/js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="./assets/js/function.js"></script>
+
+    <!-- Incluimos SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<script>
+    // Agrega este script
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header-sticky');
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > 100) { // Ajusta este valor según necesites
+            header.classList.add('sticky');
+        } else {
+            header.classList.remove('sticky');
+        }
+    });
+</script>
+
+
+
+
+
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"785189b6f2bc4e7bac2faa79f8caecf8","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
