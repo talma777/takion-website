@@ -1405,10 +1405,9 @@
 
                             <div class="member-contact-form contact-form">
 
-                                <form id="contactForm" action="https://formsubmit.co/info@takion.com.ar" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
+                                <form id="contactForm" action="https://formsubmit.co/ajax/info@takion.com.ar" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
                                     <input type="hidden" name="_subject" value="Nuevo mensaje de Contacto Web">
                                     <input type="hidden" name="_captcha" value="false">
-                                    <input type="hidden" name="_next" value="https://takion.com.ar/gracias.html">
                                     <input type="text" name="_honey" style="display:none">
                                     <div class="row">                                
                                         <div class="form-group col-md-6 mb-4">
@@ -1731,6 +1730,59 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Envío AJAX de FormSubmit -->
+<script>
+$(document).ready(function(){
+  $("#contactForm").on("submit", function(e){
+    if (e.isDefaultPrevented()) {
+        // handle the invalid form...
+        return;
+    }
+    e.preventDefault(); 
+    
+    var submitBtn = $(this).find("button[type='submit']");
+    var originalText = submitBtn.html();
+    submitBtn.prop("disabled", true).html('<span>Enviando...</span>');
+    var formData = new FormData(this);
+
+    fetch("https://formsubmit.co/ajax/info@takion.com.ar", {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+    })
+    .then(response => response.json())
+    .then(data => {
+        submitBtn.prop("disabled", false).html(originalText);
+        if (data.success) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Enviado',
+                text: 'Mensaje enviado con éxito. Nos comunicaremos con usted en breve.',
+                confirmButtonColor: '#3b0f59'
+            });
+            $("#contactForm")[0].reset();
+        } else {
+            Swal.fire({
+                icon: 'info',
+                title: 'Atención',
+                text: 'Revisa tu correo de info@takion.com.ar para Activar FormSubmit por única vez. Pide que cliques "Activate Form".',
+                confirmButtonColor: '#3b0f59'
+            });
+        }
+    })
+    .catch(error => {
+        submitBtn.prop("disabled", false).html(originalText);
+        Swal.fire({
+            icon: 'error',
+            title: 'Error de Red',
+            text: 'Tuvimos un problema procesando tu mensaje. Intenta más tarde.',
+            confirmButtonColor: '#3b0f59'
+        });
+    });
+  });
+});
+</script>
 </body>
 </html>
 
